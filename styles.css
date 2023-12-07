@@ -1,0 +1,324 @@
+.background{
+  background-image:url('https://img.freepik.com/free-vector/realistic-travel-background-with-elements_52683-77784.jpg?size=626&ext=jpg&ga=GA1.1.1826414947.1700179200&semt=ais');
+  background-size:cover;
+  height:100vh;
+  text-align:center;
+  padding:20px
+}
+
+.card-details{
+
+  background: rgba(255, 255,255, 0.7);
+  border-radius:25px;
+  height:220px;
+  margin:auto;
+  padding:20px;
+  width:300px
+}
+
+.image{
+  height:60px;
+  width:60px;
+}
+
+.navbar-heading{
+  color:green;
+  font-size:20px
+}
+.button{
+  background-color:aqua;
+  height:40px;
+  width:130px;
+  border-radius:25px;
+  border-width:0px;
+  color:black;
+}
+
+.card-heading{
+  font-size:30px;
+  font-family:rockwell;
+  font-weight:bold;
+}
+
+.destination-background{
+  background-color:rgb(38, 129, 163);
+  background-size:cover;
+  padding:20px;
+}
+
+.destination-card{
+  background-color:white;
+  border-radius:20px;
+  text-align:center;
+  margin-right:10px;
+  transition: transform 0.3s ease-in-out;
+
+}
+.destination-card:hover {
+  transform: scale(1.1);
+}
+
+
+.destination-heading{
+  color:white;
+  font-family:candara;
+  font-size:34px;
+}
+
+.dest-img{
+  width:100%;
+  border-top-right-radius:20px;
+  border-top-left-radius:20px;
+  margin-bottom:5px;
+}
+
+.dest-card-inside{
+  font-family:Bahnschrift;
+  padding:1px;
+}
+
+.card-dest-heading{
+  font-size:20px;
+  color:black;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+.h2 {
+  color: white;
+text-align:center;
+
+}
+
+.contact-section {
+  background-color: rgb(38, 129, 163);
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.section {
+  flex: 1;
+  margin: 10px;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  background-color: #fff;
+  min-width: 200px; /* Set a minimum width to ensure containers are of similar size */
+  box-sizing: border-box; /* Include padding and border in the width calculation */
+}
+
+/* Other existing styles... */
+
+
+.social-media a {
+  display: inline-block;
+  margin-right: 10px;
+  padding: 8px;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+.feedback a, .faqs a {
+  text-decoration: none;
+}
+
+.feedback a:hover, .faqs a:hover {
+  text-decoration: underline;
+}
+
+/* Footer Styling */
+footer {
+  color: #fff;
+  padding: 5px;
+  align-content: center;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+  margin-right: 10px;
+  padding-top: 0px;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+.wcu-section {
+  background-color: #f9fbfe;
+}
+
+.wcu-section-heading {
+  color: #183b56;
+  font-family: rockwell;
+  font-size: 52px;
+  font-weight: 200;
+}
+
+.wcu-section-description {
+  color: #5a7184;
+  font-family: Bahnschrift;
+  font-size: 16px;
+}
+
+.wcu-card {
+  text-align: center;
+  background-color: white;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #e5eaf4;
+  border-radius: 16px;
+}
+
+.wcu-card-image {
+  width: 150px;
+  height: 150px;
+}
+
+.wcu-card-title {
+  color: #323f4b;
+  font-family: "gadugi";
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.wcu-card-description {
+  color: #222427;
+  font-family: "Roboto";
+  font-size: 16px;
+}
+
+.wcu-section-heading {
+  text-align: center;
+}
+
+.body-tirumala {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f4f4f4;
+}
+
+.package-list {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+.package-list-item {
+  margin-bottom: 10px;
+}
+
+.book-now-button {
+  display: inline-block;
+  padding: 15px 30px;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  background-color: #4CAF50;
+  color: #fff;
+  border-radius: 5px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.book-now-button:hover {
+  background-color: #45a049;
+}
+
+.body-timer {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+}
+
+@keyframes pop {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.pop-effect {
+  animation: pop 2s infinite;
+}
+
+.container1 {
+  background-image: linear-gradient(to right,rgb(65, 165, 198), rgb(196, 196, 238), rgb(117, 117, 214), pink, rgb(241, 211, 216));
+  width: 90%;
+  margin: 20px auto;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.h1 {
+  color: #333;
+  font-weight:bold;
+}
+
+.p {
+  color: #0e0d0d;
+  font-weight:bold;
+  font-size:25px;
+}
+.offer {
+  font-size: 24px;
+  color: #7d2b12;
+  margin-top: 20px;
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #a63917;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #d84315;
+}
+
+.countdown-box {
+
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: 10px;
+  font-size: 18px;
+  display: inline-block;
+}
+.countdown-section {
+  display: inline-block;
+  margin: 0 10px;
+  padding: 5px 10px;
+  color: #fff;
+  border-radius: 5px;
+  background-color: #050505;
+}
